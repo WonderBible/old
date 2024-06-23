@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <div id="preloader"></div>
+    <link rel="stylesheet" href="FFB.css">
     <meta content="Old Version | WonderBible/Valt-Wel" property="og:title"/>
     <meta content="WonderBible - The Free Way To Read The Bible & Measure Your Knowledge Of Bible By Playing ScriptureQuest By Valt-Wel/Wel & Barok." property="og:description"/>
     <meta content="https://wonderbible.world/old/Old%20Logo.png" property="og:image"/>
@@ -48,5 +50,13 @@ bottom, lightblue, lightblue, lightblue, lightblue, black, black); }
  font-size:19px;
  margin-left:85px;}
 </style>
+<script>
+    var loader = document.getElementById("preloader");
+
+    window.addEventListener("load", function(){
+      
+      loader.style.display = "none";
+    })
+   </script>
 </body>
 </html>
